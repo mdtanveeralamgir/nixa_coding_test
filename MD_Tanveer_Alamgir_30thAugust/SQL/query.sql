@@ -7,6 +7,6 @@ CREATE TABLE `Clients`.`new_table` (
   `FName` VARCHAR(50) NOT NULL,
   `LName` VARCHAR(50) NOT NULL,
   `PhoneNumber` VARCHAR(15) NULL,
-  `DateOfContact` VARCHAR(20) NULL DEFAULT NULL,
+  `DateOfContact` DATETIME NULL DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE INDEX `id_UNIQUE` (`id` ASC) VISIBLE);
