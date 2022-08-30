@@ -9,7 +9,7 @@ define('APP_ROOT', __DIR__);
 define('PUBLIC_ROOT', dirname(__DIR__) . "/public/");
 
 //URL Root
-define('URL_ROOT', 'http://localhost/MD_Tanveer_Alamgir_Nixa_Code_Test/');
+define('URL_ROOT', 'http://localhost/MD_Tanveer_Alamgir_30thAugust/');
 
 //Title
 define('TITLE', 'Client Manager');
